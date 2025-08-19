@@ -157,4 +157,8 @@ function createStructure(base, obj) {
 }
 
 createStructure(process.cwd(), project);
+console.log('structure building completed');
+console.log(`cd vite-react-tailwindcss-temp
+node build
+npm i`)
 fs.rmSync('build.js');
