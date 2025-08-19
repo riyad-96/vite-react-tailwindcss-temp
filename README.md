@@ -3,8 +3,8 @@
 git clone https://github.com/riyad-96/vite-react-tailwindcss-temp.git
 ```
 ```bash
-node build.js
+cd vite-react-tailwindcss-temp
 ```
 ```bash
-npm i
+node build.js
 ```
