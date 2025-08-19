@@ -157,9 +157,9 @@ function createStructure(base, obj) {
 }
 
 createStructure(process.cwd(), project);
-const postMsg = `Structure initialized
+const postMsg = `
+Structure initialized
 Now run -
-
 npm install
 npm run dev`;
 console.log(postMsg);
