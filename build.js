@@ -2,9 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 if (fs.existsSync('.git')) {
-  console.log('.git exists');
   fs.rmSync('.git', { recursive: true, force: true });
-  console.log('.git removed');
 }
 
 const project = {
